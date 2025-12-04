@@ -1,0 +1,6 @@
+s=input();
+times=10
+times=times%len(s)
+for i in range(times):
+    s=s[-1]+s[:-1]
+print(s)
